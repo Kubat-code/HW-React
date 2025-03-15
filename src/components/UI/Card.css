@@ -42,39 +42,18 @@
 .box {
   display: flex;
   flex-direction: column;
+  width: 100%;
   .btn {
     display: flex;
     align-items: center;
     gap: 20px;
-    .delete {
-      width: 100px;
-      height: 30px;
-      color: white;
-      background-color: rgb(185, 0, 0);
-      border: none;
-      border-radius: 5px;
-      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-      font-weight: 500;
-      font-size: 16px;
-      transition: 0.5s ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
-    .edit {
-      width: 80px;
-      height: 30px;
-      color: white;
-      background-color: rgb(25, 0, 185);
-      border: none;
-      border-radius: 5px;
-      box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
-      font-weight: 500;
-      font-size: 16px;
-      transition: 0.5s ease-in-out;
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
+  }
+  .edit {
+    width: 70px;
+    background-color: rgb(0, 0, 162);
+  }
+  .delete{
+    width: 100px;
+    background-color: rgb(129, 0, 0);
   }
 }

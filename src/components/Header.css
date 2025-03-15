@@ -14,4 +14,9 @@ header {
       color: white;
     }
   }
+  .add-movie {
+    width: 150px;
+    height: 41px;
+    background-color: #e89b00;
+  }
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import { Cards } from "../../Utils/constants/main";
+import { Button } from "./Button";
 export const Card = () => {
   return (
     <div className="container">
@@ -13,8 +14,8 @@ export const Card = () => {
             <h1>{item.title}</h1>
             <div className="btn">
               <p>{item.rating}/5 stars</p>
-              <button className="delete">DELETE</button>
-              <button className="edit">EDIT</button>
+              <Button className="delete">Delete</Button>
+              <Button className="edit">Edit</Button>
             </div>
           </div>
         </div>
